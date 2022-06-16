@@ -1,4 +1,5 @@
 //Doing the regular roman numeral style is not harder than the "iiii = 4" requirement. Both are demonstrated.
+//Could be refactored to use Map class, rather than Object (would preserve order of key value pairs and remove the need for a decremental for loop)
 
 const numeralMap = {
     1000: 'M',
